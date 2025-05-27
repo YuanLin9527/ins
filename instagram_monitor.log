@@ -1,0 +1,3 @@
+2025-05-03 10:37:48,680 - INFO - 成功导入instagrapi库
+2025-05-03 10:37:48,732 - ERROR - 保存配置文件 D:\ins\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-03 10:37:48,732 - INFO - 使用默认配置

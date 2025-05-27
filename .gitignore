@@ -1,0 +1,21 @@
+# 自动创建的.gitignore
+# 排除大型二进制文件
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.iso
+*.vhd
+*.vmdk
+node_modules/
+.git/

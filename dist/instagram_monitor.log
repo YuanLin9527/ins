@@ -1,0 +1,113 @@
+2025-05-03 11:45:59,855 - INFO - 成功导入instagrapi库
+2025-05-03 11:45:59,917 - ERROR - 保存配置文件 C:\Users\KKS\AppData\Local\Temp\_MEI217282\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-03 11:45:59,918 - INFO - 使用默认配置
+2025-05-03 11:46:59,772 - INFO - 从Cookie文件中提取到sessionid: 2546203096...
+2025-05-03 11:47:00,794 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
+2025-05-03 11:47:01,599 - INFO - None [200] GET https://i.instagram.com/api/v1/users/25462030961/info/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 11:47:01,616 - INFO - 使用sessionid登录结果: True
+2025-05-03 11:47:01,626 - INFO - 正在获取用户信息和头像...
+2025-05-03 11:47:01,638 - INFO - 获取到user_id: 25462030961
+2025-05-03 11:47:03,329 - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22user_id%22%3A%2225462030961%22%2C%22include_reel%22%3Atrue%7D&query_hash=ad99dd9d3646cc3c0dda65debcd266a7
+2025-05-03 11:47:06,685 - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22user_id%22%3A%2225462030961%22%2C%22include_reel%22%3Atrue%7D&query_hash=ad99dd9d3646cc3c0dda65debcd266a7
+2025-05-03 11:47:09,975 - INFO - [None] [401] GET https://www.instagram.com/graphql/query/?variables=%7B%22user_id%22%3A%2225462030961%22%2C%22include_reel%22%3Atrue%7D&query_hash=ad99dd9d3646cc3c0dda65debcd266a7
+2025-05-03 11:47:10,993 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
+2025-05-03 11:47:11,517 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/users/25462030961/info/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:01:36,348 - INFO - [None] [201] GET https://www.instagram.com/girls_choicee_/?__a=1&__d=dis
+2025-05-03 12:01:36,362 - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/girls_choicee_/?__a=1&__d=dis) >>> 
+2025-05-03 12:01:39,647 - INFO - [None] [201] GET https://www.instagram.com/girls_choicee_/?__a=1&__d=dis
+2025-05-03 12:01:39,663 - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/girls_choicee_/?__a=1&__d=dis) >>> 
+2025-05-03 12:01:42,936 - INFO - [None] [201] GET https://www.instagram.com/girls_choicee_/?__a=1&__d=dis
+2025-05-03 12:01:42,961 - ERROR - Status 201: JSONDecodeError in public_request (url=https://www.instagram.com/girls_choicee_/?__a=1&__d=dis) >>> 
+2025-05-03 12:01:43,987 - INFO - https://i.instagram.com/api/v1/users/girls_choicee_/usernameinfo/
+2025-05-03 12:01:44,764 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/users/girls_choicee_/usernameinfo/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:01:44,798 - INFO - 添加博主成功: girls_choicee_
+2025-05-03 12:01:45,823 - INFO - https://i.instagram.com/api/v1/feed/user/58481043732/
+2025-05-03 12:01:46,857 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/feed/user/58481043732/?max_id=&count=1&rank_token=25462030961_5bb30ae5-3ebc-4e61-b42c-69a2b4527c9f&ranked_content=true (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:01:46,895 - INFO - 更新博主 girls_choicee_ 最新帖子ID: 3565786241008797632_58481043732
+2025-05-03 12:01:46,920 - INFO - 博主 girls_choicee_ 最新帖子链接: https://www.instagram.com/p/DF8N7GgTgfA/
+2025-05-03 12:01:58,992 - INFO - https://i.instagram.com/api/v1/feed/user/58481043732/
+2025-05-03 12:02:00,440 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/feed/user/58481043732/?max_id=&count=20&rank_token=25462030961_5bb30ae5-3ebc-4e61-b42c-69a2b4527c9f&ranked_content=true (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:02:01,481 - INFO - https://i.instagram.com/api/v1/feed/user/58481043732/
+2025-05-03 12:02:02,905 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/feed/user/58481043732/?max_id=3623697576702705772_58481043732&count=20&rank_token=25462030961_5bb30ae5-3ebc-4e61-b42c-69a2b4527c9f&ranked_content=true (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:02:46,541 - INFO - https://i.instagram.com/api/v1/media/3565786241008797632_58481043732/comment/
+2025-05-03 12:03:00,912 - ERROR - 评论发布失败: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/media/3565786241008797632_58481043732/comment/ (Caused by ResponseError('too many 500 error responses'))
+2025-05-03 12:03:20,669 - INFO - https://i.instagram.com/api/v1/media/3565786241008797632_58481043732/comment/
+2025-05-03 12:03:34,154 - ERROR - 评论发布失败: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/media/3565786241008797632_58481043732/comment/ (Caused by ResponseError('too many 500 error responses'))
+2025-05-03 12:08:58,988 - INFO - 自动评论功能已开启
+2025-05-03 12:08:59,804 - INFO - 自动评论功能已关闭
+2025-05-03 12:10:19,213 - INFO - https://i.instagram.com/api/v1/media/3565786241008797632_58481043732/comment/
+2025-05-03 12:10:32,997 - ERROR - 评论发布失败: HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/media/3565786241008797632_58481043732/comment/ (Caused by ResponseError('too many 500 error responses'))
+2025-05-03 12:11:13,494 - INFO - [None] [404] GET https://www.instagram.com/caisiqi520%0A/?__a=1&__d=dis
+2025-05-03 12:11:14,516 - INFO - https://i.instagram.com/api/v1/users/caisiqi520
+/usernameinfo/
+2025-05-03 12:11:14,984 - INFO - linyuan512 [404] GET https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:11:15,022 - WARNING - Status 404: Endpoint /v1/users/caisiqi520
+/usernameinfo/ does not exist
+2025-05-03 12:11:15,057 - ERROR - 添加博主失败: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/
+2025-05-03 12:11:21,353 - INFO - [None] [404] GET https://www.instagram.com/caisiqi520%0A/?__a=1&__d=dis
+2025-05-03 12:11:22,388 - INFO - https://i.instagram.com/api/v1/users/caisiqi520
+/usernameinfo/
+2025-05-03 12:11:22,817 - INFO - linyuan512 [404] GET https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:11:22,838 - WARNING - Status 404: Endpoint /v1/users/caisiqi520
+/usernameinfo/ does not exist
+2025-05-03 12:11:22,862 - ERROR - 添加博主失败: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/
+2025-05-03 12:11:27,533 - INFO - [None] [404] GET https://www.instagram.com/caisiqi520%0A/?__a=1&__d=dis
+2025-05-03 12:11:28,549 - INFO - https://i.instagram.com/api/v1/users/caisiqi520
+/usernameinfo/
+2025-05-03 12:11:28,985 - INFO - linyuan512 [404] GET https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:11:29,003 - WARNING - Status 404: Endpoint /v1/users/caisiqi520
+/usernameinfo/ does not exist
+2025-05-03 12:11:29,025 - ERROR - 添加博主失败: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/
+2025-05-03 12:11:35,870 - INFO - 从Cookie文件中提取到sessionid: 2546203096...
+2025-05-03 12:11:36,885 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
+2025-05-03 12:11:37,468 - INFO - None [200] GET https://i.instagram.com/api/v1/users/25462030961/info/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:15:30,821 - INFO - 从Cookie文件中提取到sessionid: 2546203096...
+2025-05-03 12:15:31,835 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
+2025-05-03 12:15:32,653 - INFO - None [200] GET https://i.instagram.com/api/v1/users/25462030961/info/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:15:32,672 - INFO - 使用sessionid登录结果: True
+2025-05-03 12:15:32,691 - INFO - 正在获取用户信息和头像...
+2025-05-03 12:15:32,708 - INFO - 获取到user_id: 25462030961
+2025-05-03 12:15:39,249 - INFO - [None] [404] GET https://www.instagram.com/caisiqi520%0A/?__a=1&__d=dis
+2025-05-03 12:15:40,262 - INFO - https://i.instagram.com/api/v1/users/caisiqi520
+/usernameinfo/
+2025-05-03 12:15:40,700 - INFO - linyuan512 [404] GET https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:15:40,712 - WARNING - Status 404: Endpoint /v1/users/caisiqi520
+/usernameinfo/ does not exist
+2025-05-03 12:15:40,733 - ERROR - 添加博主失败: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/
+2025-05-03 12:15:48,513 - INFO - [None] [404] GET https://www.instagram.com/caisiqi520%0A/?__a=1&__d=dis
+2025-05-03 12:15:49,531 - INFO - https://i.instagram.com/api/v1/users/caisiqi520
+/usernameinfo/
+2025-05-03 12:15:49,930 - INFO - linyuan512 [404] GET https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/ (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:15:49,947 - WARNING - Status 404: Endpoint /v1/users/caisiqi520
+/usernameinfo/ does not exist
+2025-05-03 12:15:49,975 - ERROR - 添加博主失败: 404 Client Error: Not Found for url: https://i.instagram.com/api/v1/users/caisiqi520%0A/usernameinfo/
+2025-05-03 12:16:03,750 - INFO - https://i.instagram.com/api/v1/feed/user/58481043732/
+2025-05-03 12:16:05,736 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/feed/user/58481043732/?max_id=&count=20&rank_token=25462030961_8ae319a8-bc32-4813-86c7-3313466acb94&ranked_content=true (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:16:06,765 - INFO - https://i.instagram.com/api/v1/feed/user/58481043732/
+2025-05-03 12:16:07,744 - INFO - linyuan512 [200] GET https://i.instagram.com/api/v1/feed/user/58481043732/?max_id=3623697576702705772_58481043732&count=20&rank_token=25462030961_8ae319a8-bc32-4813-86c7-3313466acb94&ranked_content=true (269.0.0.18.75, OnePlus 6T Dev)
+2025-05-03 12:29:33,839 - INFO - 成功导入instagrapi库
+2025-05-03 12:29:33,936 - ERROR - 保存配置文件 C:\Users\KKS\AppData\Local\Temp\_MEI183082\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-03 12:29:33,937 - INFO - 使用默认配置
+2025-05-03 12:29:50,950 - INFO - 从Cookie文件中提取到sessionid: 替换为真实会话ID...
+2025-05-03 12:32:25,486 - INFO - 从Cookie文件中提取到sessionid: 替换为真实会话ID...
+2025-05-03 12:32:27,302 - ERROR - 从Chrome提取Cookie时发生错误: [Errno 2] No such file or directory: 'C:\\Users\\KKS\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Local State'
+2025-05-03 12:32:27,314 - ERROR - 从所有支持的浏览器中均未提取到Cookie
+2025-05-15 19:00:44,064 - INFO - 成功导入instagrapi库
+2025-05-15 19:00:44,149 - ERROR - 保存配置文件 C:\Users\ADMINI~1\AppData\Local\Temp\_MEI229362\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-15 19:00:44,149 - INFO - 使用默认配置
+2025-05-15 19:02:49,208 - INFO - 从Cookie文件中提取到sessionid: 替换为真实会话ID...
+2025-05-16 21:00:14,630 - INFO - 成功导入instagrapi库
+2025-05-17 18:27:31,319 - INFO - 成功导入instagrapi库
+2025-05-17 18:27:31,550 - ERROR - 保存配置文件 C:\Users\ADMINI~1\AppData\Local\Temp\_MEI158002\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-17 18:27:31,551 - INFO - 使用默认配置
+2025-05-17 18:28:45,514 - INFO - 从Cookie文件中提取到sessionid: 2546203096...
+2025-05-17 18:28:46,529 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
+2025-05-17 18:29:07,545 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001EA25264650>, 'Connection to i.instagram.com timed out. (connect timeout=None)')': /api/v1/users/25462030961/info/
+2025-05-17 18:29:32,582 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001EA25265850>, 'Connection to i.instagram.com timed out. (connect timeout=None)')': /api/v1/users/25462030961/info/
+2025-05-17 18:30:09,248 - INFO - 成功导入instagrapi库
+2025-05-17 18:30:09,475 - ERROR - 保存配置文件 C:\Users\ADMINI~1\AppData\Local\Temp\_MEI185082\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-17 18:30:09,475 - INFO - 使用默认配置
+2025-05-17 18:30:21,140 - INFO - 从Cookie文件中提取到sessionid: 2546203096...
+2025-05-17 18:30:22,153 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
+2025-05-17 18:30:43,174 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026604510D90>, 'Connection to i.instagram.com timed out. (connect timeout=None)')': /api/v1/users/25462030961/info/
+2025-05-17 18:31:08,201 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026604511E90>, 'Connection to i.instagram.com timed out. (connect timeout=None)')': /api/v1/users/25462030961/info/
