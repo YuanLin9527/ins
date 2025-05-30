@@ -111,3 +111,6 @@
 2025-05-17 18:30:22,153 - INFO - https://i.instagram.com/api/v1/users/25462030961/info/
 2025-05-17 18:30:43,174 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026604510D90>, 'Connection to i.instagram.com timed out. (connect timeout=None)')': /api/v1/users/25462030961/info/
 2025-05-17 18:31:08,201 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000026604511E90>, 'Connection to i.instagram.com timed out. (connect timeout=None)')': /api/v1/users/25462030961/info/
+2025-05-28 05:32:38,718 - INFO - 成功导入instagrapi库
+2025-05-28 05:32:38,864 - ERROR - 保存配置文件 C:\Users\Administrator\AppData\Local\Temp\_MEI1607042\config.json 失败: 'InstagramMonitor' object has no attribute 'last_posts'
+2025-05-28 05:32:38,864 - INFO - 使用默认配置
